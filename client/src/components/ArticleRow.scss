@@ -1,0 +1,42 @@
+@import '../variables';
+
+.result {
+  border-bottom: 1px solid $grayEE;
+  padding: 1rem 0;
+}
+
+.result .media-body {
+  padding-left: 1rem;
+  color: $gray33;
+}
+
+.media-object {
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+}
+
+.media-heading {
+  margin: 2rem 0;
+}
+
+.media-right {
+  font-size: 0.75rem;
+  color: $gray66;
+}
+
+.result.media:last-child {
+  border-bottom: none;
+}
+
+.media-description a {
+  font-size: 1.125rem;
+  color: $gray33;
+  text-decoration: none;
+}
+
+.results-wrapper a:hover,
+.results-wrapper a:active {
+  color: $gray33;
+  text-decoration: none;
+}

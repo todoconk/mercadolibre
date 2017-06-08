@@ -1,0 +1,43 @@
+@import '../_variables';
+
+.post-wrapper {
+  background-color: $white;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  margin-bottom: 3.75rem;
+}
+
+.post-image {
+  width: 680px;
+}
+
+.post-condition {
+  font-size: 0.875rem;
+}
+
+.post-title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.post-price {
+  margin: 2rem 0;
+  font-size: 2.875rem;
+}
+
+.btn-buy {
+  background-color: $blue;
+  color: $white;
+}
+
+.post-description-title {
+  margin-top: 5.25rem;
+  font-size: 1.75rem;
+}
+
+.post-description {
+  font-size: 1rem;
+  margin: 2rem 0;
+}
